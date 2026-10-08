@@ -1,0 +1,306 @@
+/* Rectangle */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    background: #F9F9F9;
+    font-family: Roboto;
+line-height: 164%;
+letter-spacing: 10%;
+
+
+}
+
+ul>li{
+    list-style: none;
+}
+
+.wrapper{
+
+}
+
+.container {
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background: #EEEFF1;
+    padding-top: 79px;
+}
+
+.nav__list {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav__item {
+    margin: 0 42px 0 0;
+}
+
+.nav__icon {
+    padding-right: 356px;
+    width: 40px;
+    height: 40px;
+}
+
+.main {
+}
+
+.first_screen {
+    display: flex;
+    justify-content: center;
+    background: #EEEFF1;
+    padding-top: 162px;
+}
+
+.first_screen-list {
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 60px;
+    max-width: 540px;
+    margin-bottom: 146px;
+}
+
+.first_screen-item {
+    width: 540px;
+height: 67px;
+}
+
+.nb_img {
+    width: 357px;
+height: 234px;
+top: 271px;
+left: 487px;
+}
+
+.first_screen-title {
+}
+.first_screen-text {
+}
+
+.btn {
+    width: 225;
+height: 65;
+top: 482px;
+left: 975px;
+font-size: 16px;
+text-align: center;
+padding: 25px 41px;
+background: #34547A;
+color: #FFFFFF;
+border: none;
+}
+
+.about_me {
+    display: flex;
+    justify-content: center;
+    padding: 119px 0 72px;
+}
+
+.about__me-desc {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 540px;
+    height: 147px;
+}
+
+.about_me-title {
+}
+.about_me-text {
+    text-align: center;
+}
+
+.numbers {
+    background: #34547A;
+color: #FFFFFF;
+}
+
+.humbers__list {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.numbers__item {
+    display: flex;
+    width: 141px;
+height: 50px;
+gap: 20px;
+}
+
+.num__img {
+    width: 50px;
+    height: 50px;
+}
+
+.numbers__desc {
+}
+
+.num {
+font-weight: 500;
+font-size: 21px;
+margin: 0
+;
+}
+.project {
+font-weight: 400;
+font-size: 16px;
+margin: 0;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    column-gap: 150px;
+    padding: 130px 0;
+} 
+.skills__list {
+    display: flex;
+    flex-direction: column;
+
+}
+.skills__item {
+    border-bottom: solid 4px #34547A;
+    width: 445px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.skills__my-img {
+}
+
+.skills__img {
+    width: 555px;
+    height: 450px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+    background: #EEEFF1;
+    row-gap: 57px;
+    text-align: center;
+}
+.video__desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 540px;
+    height: 147px;
+}
+
+.video__title {
+}
+.video__text {
+}
+
+.video__img {
+    width: 1110px;
+height: 600px;
+}
+
+.projects {
+    width: 1920px;
+height: 960px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project_image {
+    margin: 0;
+    padding: 0;
+    width: 480px;
+    height: 480px;
+    object-fit: cover;
+    object-position: center;
+    background: #C4C4C4;
+}
+
+.form {
+padding: 100px 0;
+display: flex;
+align-items: center;
+flex-direction: column;
+row-gap: 20px;
+}
+
+.form__title {
+font-weight: 500;
+font-size: 32px;
+}
+
+.form__desc{
+    width: 540px;
+    text-align: center;
+    padding-bottom: 65px;
+    margin: 0;
+}
+
+.foorm{
+    width: 540px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 30px;
+    padding: 0;
+}
+
+.form__name {
+    width: 255px;
+    height: 50px;
+    padding: 18px 20px ;
+}
+
+.form__email {
+    width: 255px;
+    height: 50px;
+    padding: 18px 20px ;
+}
+
+.form__com {
+width: 540px;
+    height: 175px;
+    padding: 18px 20px ;
+}
+
+.footer {
+    background: #34547A;
+    padding: 50px 0;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 757px;
+}
+
+.footer__title {
+font-weight: 500;
+font-size: 21px;
+padding-bottom: 20px;
+margin: 0;
+}
+
+.footer__text {
+font-weight: 400;
+font-size: 13px;
+margin: 0;
+}
+
+.footer__img{
+    width: 43px;
+    height: 40px;
+}
